@@ -1,13 +1,11 @@
 <?php require 'partials/header.php'; ?>
 	<div class="breadcrumbs">
 		<div class="container">
-			<div class="col-md-12">
-				<div class="breadcrumbs-main">
-					<ol class="breadcrumb">
-						<li><a href="index.php">Home</a></li>
-						<li class="active">Checkout</li>
-					</ol>
-				</div>
+			<div class="breadcrumbs-main">
+				<ol class="breadcrumb">
+					<li><a href="index.php">Home</a></li>
+					<li class="active">Checkout</li>
+				</ol>
 			</div>
 		</div>
 	</div>
