@@ -7,11 +7,20 @@
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="assets/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="assets/css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/responsiveslides.js"></script>
+	<script src="assets/js/simplecart.js"> </script>
+	<script src="assets/js/memenu.js"></script>
+	<script src="assets/js/easydropdown.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/imagezoom.js"></script>
+	<script src="assets/js/flexslider.js"></script>
 </head>
 <body>
 	<div class="top-header">
 		<div class="container">
-			<div class="top-header-main">
+			<div class="top-header-main row">
 				<div class="col-md-6 top-header-left">
 					<div class="drop">
 						<div class="box">
@@ -52,7 +61,7 @@
 	</div>
 	<div class="header-bottom">
 		<div class="container">
-			<div class="header">
+			<div class="header row">
 				<div class="col-md-9 header-left">
 				<div class="top-nav">
 					<ul class="memenu skyblue"><li class="active"><a href="index.php">Home</a></li>
@@ -62,38 +71,38 @@
 									<div class="col1 me-one">
 										<h4>Shop</h4>
 										<ul>
-											<li><a href="products.html">New Arrivals</a></li>
-											<li><a href="products.html">Blazers</a></li>
-											<li><a href="products.html">Swem Wear</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Handbags</a></li>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">My Shopping Bag</a></li>
+											<li><a href="products.php">New Arrivals</a></li>
+											<li><a href="products.php">Blazers</a></li>
+											<li><a href="products.php">Swem Wear</a></li>
+											<li><a href="products.php">Accessories</a></li>
+											<li><a href="products.php">Handbags</a></li>
+											<li><a href="products.php">T-Shirts</a></li>
+											<li><a href="products.php">Watches</a></li>
+											<li><a href="products.php">My Shopping Bag</a></li>
 										</ul>
 									</div>
 									<div class="col1 me-one">
 										<h4>Style Zone</h4>
 										<ul>
-											<li><a href="products.html">Shoes</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">Brands</a></li>
-											<li><a href="products.html">Coats</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Trousers</a></li>
+											<li><a href="products.php">Shoes</a></li>
+											<li><a href="products.php">Watches</a></li>
+											<li><a href="products.php">Brands</a></li>
+											<li><a href="products.php">Coats</a></li>
+											<li><a href="products.php">Accessories</a></li>
+											<li><a href="products.php">Trousers</a></li>
 										</ul>
 									</div>
 									<div class="col1 me-one">
 										<h4>Popular Brands</h4>
 										<ul>
-											<li><a href="products.html">499 Store</a></li>
-											<li><a href="products.html">Fastrack</a></li>
-											<li><a href="products.html">Casio</a></li>
-											<li><a href="products.html">Fossil</a></li>
-											<li><a href="products.html">Maxima</a></li>
-											<li><a href="products.html">Timex</a></li>
-											<li><a href="products.html">TomTom</a></li>
-											<li><a href="products.html">Titan</a></li>
+											<li><a href="products.php">499 Store</a></li>
+											<li><a href="products.php">Fastrack</a></li>
+											<li><a href="products.php">Casio</a></li>
+											<li><a href="products.php">Fossil</a></li>
+											<li><a href="products.php">Maxima</a></li>
+											<li><a href="products.php">Timex</a></li>
+											<li><a href="products.php">TomTom</a></li>
+											<li><a href="products.php">Titan</a></li>
 										</ul>
 									</div>
 								</div>
@@ -105,38 +114,38 @@
 									<div class="col1 me-one">
 										<h4>Shop</h4>
 										<ul>
-											<li><a href="products.html">New Arrivals</a></li>
-											<li><a href="products.html">Blazers</a></li>
-											<li><a href="products.html">Swem Wear</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Handbags</a></li>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">My Shopping Bag</a></li>
+											<li><a href="products.php">New Arrivals</a></li>
+											<li><a href="products.php">Blazers</a></li>
+											<li><a href="products.php">Swem Wear</a></li>
+											<li><a href="products.php">Accessories</a></li>
+											<li><a href="products.php">Handbags</a></li>
+											<li><a href="products.php">T-Shirts</a></li>
+											<li><a href="products.php">Watches</a></li>
+											<li><a href="products.php">My Shopping Bag</a></li>
 										</ul>
 									</div>
 									<div class="col1 me-one">
 										<h4>Style Zone</h4>
 										<ul>
-											<li><a href="products.html">Shoes</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">Brands</a></li>
-											<li><a href="products.html">Coats</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Trousers</a></li>
+											<li><a href="products.php">Shoes</a></li>
+											<li><a href="products.php">Watches</a></li>
+											<li><a href="products.php">Brands</a></li>
+											<li><a href="products.php">Coats</a></li>
+											<li><a href="products.php">Accessories</a></li>
+											<li><a href="products.php">Trousers</a></li>
 										</ul>
 									</div>
 									<div class="col1 me-one">
 										<h4>Popular Brands</h4>
 										<ul>
-											<li><a href="products.html">499 Store</a></li>
-											<li><a href="products.html">Fastrack</a></li>
-											<li><a href="products.html">Casio</a></li>
-											<li><a href="products.html">Fossil</a></li>
-											<li><a href="products.html">Maxima</a></li>
-											<li><a href="products.html">Timex</a></li>
-											<li><a href="products.html">TomTom</a></li>
-											<li><a href="products.html">Titan</a></li>
+											<li><a href="products.php">499 Store</a></li>
+											<li><a href="products.php">Fastrack</a></li>
+											<li><a href="products.php">Casio</a></li>
+											<li><a href="products.php">Fossil</a></li>
+											<li><a href="products.php">Maxima</a></li>
+											<li><a href="products.php">Timex</a></li>
+											<li><a href="products.php">TomTom</a></li>
+											<li><a href="products.php">Titan</a></li>
 										</ul>
 									</div>
 								</div>
@@ -148,54 +157,52 @@
 									<div class="col1 me-one">
 										<h4>Shop</h4>
 										<ul>
-											<li><a href="products.html">New Arrivals</a></li>
-											<li><a href="products.html">Blazers</a></li>
-											<li><a href="products.html">Swem Wear</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Handbags</a></li>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">My Shopping Bag</a></li>
+											<li><a href="products.php">New Arrivals</a></li>
+											<li><a href="products.php">Blazers</a></li>
+											<li><a href="products.php">Swem Wear</a></li>
+											<li><a href="products.php">Accessories</a></li>
+											<li><a href="products.php">Handbags</a></li>
+											<li><a href="products.php">T-Shirts</a></li>
+											<li><a href="products.php">Watches</a></li>
+											<li><a href="products.php">My Shopping Bag</a></li>
 										</ul>
 									</div>
 									<div class="col1 me-one">
 										<h4>Style Zone</h4>
 										<ul>
-											<li><a href="products.html">Shoes</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">Brands</a></li>
-											<li><a href="products.html">Coats</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Trousers</a></li>
+											<li><a href="products.php">Shoes</a></li>
+											<li><a href="products.php">Watches</a></li>
+											<li><a href="products.php">Brands</a></li>
+											<li><a href="products.php">Coats</a></li>
+											<li><a href="products.php">Accessories</a></li>
+											<li><a href="products.php">Trousers</a></li>
 										</ul>
 									</div>
 									<div class="col1 me-one">
 										<h4>Popular Brands</h4>
 										<ul>
-											<li><a href="products.html">499 Store</a></li>
-											<li><a href="products.html">Fastrack</a></li>
-											<li><a href="products.html">Casio</a></li>
-											<li><a href="products.html">Fossil</a></li>
-											<li><a href="products.html">Maxima</a></li>
-											<li><a href="products.html">Timex</a></li>
-											<li><a href="products.html">TomTom</a></li>
-											<li><a href="products.html">Titan</a></li>
+											<li><a href="products.php">499 Store</a></li>
+											<li><a href="products.php">Fastrack</a></li>
+											<li><a href="products.php">Casio</a></li>
+											<li><a href="products.php">Fossil</a></li>
+											<li><a href="products.php">Maxima</a></li>
+											<li><a href="products.php">Timex</a></li>
+											<li><a href="products.php">TomTom</a></li>
+											<li><a href="products.php">Titan</a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</li>
-						<li class="grid"><a href="typo.html">Blog</a>
-						</li>
-						<li class="grid"><a href="contact.html">Contact</a>
-						</li>
+						<li class="grid"><a href="typo.php">Blog</a></li>
+						<li class="grid"><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-3 header-right">
 				<div class="search-bar">
-					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="text" placeholder="Search">
 					<input type="submit" value="">
 				</div>
 			</div>

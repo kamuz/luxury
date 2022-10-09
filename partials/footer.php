@@ -1,6 +1,6 @@
 	<div class="information">
 		<div class="container">
-			<div class="infor-top">
+			<div class="infor-top row">
 				<div class="col-md-3 infor-left">
 					<h3>Follow Us</h3>
 					<ul>
@@ -15,14 +15,14 @@
 						<li><a href="#"><p>Specials</p></a></li>
 						<li><a href="#"><p>New Products</p></a></li>
 						<li><a href="#"><p>Our Stores</p></a></li>
-						<li><a href="contact.html"><p>Contact Us</p></a></li>
+						<li><a href="contact.php"><p>Contact Us</p></a></li>
 						<li><a href="#"><p>Top Sellers</p></a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 infor-left">
 					<h3>My Account</h3>
 					<ul>
-						<li><a href="account.html"><p>My Account</p></a></li>
+						<li><a href="account.php"><p>My Account</p></a></li>
 						<li><a href="#"><p>My Credit slips</p></a></li>
 						<li><a href="#"><p>My Merchandise returns</p></a></li>
 						<li><a href="#"><p>My Personal info</p></a></li>
@@ -31,9 +31,7 @@
 				</div>
 				<div class="col-md-3 infor-left">
 					<h3>Store Information</h3>
-					<h4>The company name,
-						<span>Lorem ipsum dolor,</span>
-						Glasglow Dr 40 Fe 72.</h4>
+					<h4>The company name, <span>Lorem ipsum dolor,</span> Glasglow Dr 40 Fe 72.</h4>
 					<h5>+955 123 4567</h5>
 					<p><a href="mailto:example@email.com">contact@example.com</a></p>
 				</div>
@@ -51,51 +49,11 @@
 					</form>
 				</div>
 				<div class="col-md-6 footer-right">
-					<p>© 2015 Luxury Watches. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+					<p>© <?php echo date( 'Y' ); ?> Luxury Watches. All Rights Reserved</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/responsiveslides.js"></script>
-	<script src="assets/js/simplecart.js"> </script>
-	<script src="assets/js/memenu.js"></script>
-	<script src="assets/js/easydropdown.js"></script>
-	<script>
-		$(document).ready(function() {
-			$(".memenu").memenu();
-			$('.close1').on('click', function(){
-				$('.cart-header').fadeOut('slow', function(){
-					$('.cart-header').remove();
-				});
-			});
-			$('.close2').on('click', function(){
-				$('.cart-header1').fadeOut('slow', function(){
-					$('.cart-header1').remove();
-				});
-			});
-			$('.close3').on('click', function(){
-				$('.cart-header2').fadeOut('slow', function(){
-					$('.cart-header2').remove();
-				});
-			});
-			if ( $("#slider4").length > 0 ) {
-				$("#slider4").responsiveSlides({
-					auto: true,
-					pager: true,
-					nav: true,
-					speed: 500,
-					namespace: "callbacks",
-					before: function () {
-						$('.events').append("<li>before event fired.</li>");
-					},
-					after: function () {
-						$('.events').append("<li>after event fired.</li>");
-					}
-				});
-			}
-		});
-	</script>
 </body>
 </html>
