@@ -1,20 +1,5 @@
 $(document).ready(function() {
 	$(".memenu").memenu();
-	$('.close1').on('click', function() {
-		$('.cart-header').fadeOut('slow', function() {
-			$('.cart-header').remove();
-		});
-	});
-	$('.close2').on('click', function() {
-		$('.cart-header1').fadeOut('slow', function() {
-			$('.cart-header1').remove();
-		});
-	});
-	$('.close3').on('click', function() {
-		$('.cart-header2').fadeOut('slow', function() {
-			$('.cart-header2').remove();
-		});
-	});
 	if ($("#slider4").length > 0) {
 		$("#slider4").responsiveSlides({
 			auto: true,

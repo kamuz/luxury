@@ -36,7 +36,7 @@
 						<p>Delivered in 2-3 business days</p></li>
 					<div class="clearfix"> </div>
 				</ul>
-				<ul class=" cart-header1">
+				<ul class=" cart-header">
 					<div class="close2"> </div>
 						<li class="ring-in"><a href="single.html" ><img src="assets/images/c-2.jpg" class="img-responsive" alt=""></a>
 						</li>
@@ -46,7 +46,7 @@
 						<p>Delivered in 2-3 business days</p></li>
 						<div class="clearfix"> </div>
 				</ul>
-				<ul class="cart-header2">
+				<ul class="cart-header">
 					<div class="close3"> </div>
 						<li class="ring-in"><a href="single.html" ><img src="assets/images/c-3.jpg" class="img-responsive" alt=""></a>
 						</li>

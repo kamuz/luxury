@@ -47,19 +47,11 @@
 									<li class="size-in">Size<select>
 											<option>Large</option>
 											<option>Medium</option>
-											<option>small</option>
-											<option>Large</option>
-											<option>small</option>
+											<option>Small</option>
 										</select></li>
 									<div class="clearfix"> </div>
 								</ul>
 							</div>
-							<ul class="tag-men">
-								<li><span>TAG</span>
-									<span class="women1">: Women,</span></li>
-								<li><span>SKU</span>
-									<span class="women1">: CK09</span></li>
-							</ul>
 							<a href="#" class="add-cart item_add">ADD TO CART</a>
 						</div>
 					</div>
