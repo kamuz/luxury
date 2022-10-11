@@ -14,7 +14,7 @@
 		<div class="account-top heading">
 				<h2>ACCOUNT</h2>
 			</div>
-			<div class="account-main">
+			<div class="account-main row">
 				<div class="col-md-6 account-left">
 					<h3>Existing User</h3>
 					<div class="account-bottom">

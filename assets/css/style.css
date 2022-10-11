@@ -1,6 +1,11 @@
-body {
+body,
+form,
+select,
+input,
+option,
+::placeholder {
 	background: #fff;
-	font-family: 'Lato-Regular';
+	font-family: 'Lato-Regular', sans-serif;
 }
 
 body a {
@@ -134,7 +139,6 @@ body a {
 
 a.simpleCart_empty {
 	color: rgba(255, 255, 255, 0.6);
-	font-family: 'Lato', sans-serif;
 	font-size: 11px;
 }
 
@@ -698,16 +702,12 @@ figure.effect-bubba:hover h2 {
 /*--product-starts--*/
 .product-left {
 	text-align: center;
-
+	margin-bottom: 20px;
 }
 
 .product-main {
 	padding: 1em 0px 2.7em 0px;
 	border: 1px solid #ECEAEA;
-}
-
-.product {
-	padding: 3em 0px 6em 0px;
 }
 
 .product-bottom h3 {
@@ -747,10 +747,6 @@ figure.effect-bubba:hover h2 {
 	color: #999;
 	margin: 5px 0 0 0;
 	text-transform: uppercase;
-}
-
-.product-one:nth-child(2) {
-	margin-top: 30px;
 }
 
 img.zoom-img {
@@ -833,39 +829,6 @@ a.mask {
 	font-size: 1.5em;
 	color: #000;
 	margin: 0 0 0 0;
-}
-
-.infor-left ul li a span {
-	background: url(../images/s-icons.png) no-repeat;
-	width: 34px;
-	height: 34px;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.infor-left ul li a span:hover {
-	transition: .5s all;
-	-webkit-transition: .5s all;
-	-o-transition: .5s all;
-	-ms-transition: .5s all;
-	-moz-transition: .5s all;
-	transform: rotatey(360deg);
-	-webkit-transform: rotatey(360deg);
-	-moz-transform: rotatey(360deg);
-	-o-transform: rotatey(360deg);
-	-ms-transform: rotatey(360deg);
-}
-
-.infor-left ul li a span.fb {
-	background-position: 0px 0px;
-}
-
-.infor-left ul li a span.twit {
-	background-position: -34px 0px;
-}
-
-.infor-left ul li a span.google {
-	background-position: -68px 0px;
 }
 
 .infor-left ul {
@@ -1671,7 +1634,7 @@ a.mask {
 	background: none;
 	padding: 8px 10px;
 	outline: none;
-	border: 1px solid #000;
+	border: 1px solid #d6d6d6;
 	font-family: 'Lato-Regular';
 	font-size: 14px;
 	margin-bottom: 20px;
@@ -1682,7 +1645,7 @@ a.mask {
 }
 
 .submit {
-	margin: 0 0 0 1em;
+	margin: 0 0 1em 0;
 }
 
 .address a {
@@ -2247,10 +2210,6 @@ h3.ghj {
 		padding: 4.5em 0px 3em 0px;
 	}
 
-	.product {
-		padding: 3em 0px 5em 0px;
-	}
-
 	.memenu>li>.mepanel {
 		top: 45px !important;
 	}
@@ -2349,10 +2308,6 @@ h3.ghj {
 	.callbacks_tabs a:after {
 		height: 11px;
 		width: 11px;
-	}
-
-	.product {
-		padding: 2em 0px 4em 0px;
 	}
 
 	a.mask {
@@ -2509,10 +2464,6 @@ h3.ghj {
 		margin-left: 15%;
 	}
 
-	.p-left {
-		width: 33.3% !important;
-	}
-
 	.prdt-right {
 		margin-top: 2em;
 	}
@@ -2564,7 +2515,7 @@ h3.ghj {
 	.about-left {
 		width: 33.3%;
 		float: left;
-		padding: 0 10px;
+		/*padding: 0 10px;*/
 	}
 
 	.about {
@@ -2588,16 +2539,6 @@ h3.ghj {
 	figure.effect-bubba p {
 		padding: 0px 0.5em;
 		font-size: 13px;
-	}
-
-	.product-left {
-		width: 25%;
-		float: left;
-		padding: 0 8px;
-	}
-
-	.mask img {
-		width: 60%;
 	}
 
 	.product-bottom {
@@ -2658,10 +2599,6 @@ h3.ghj {
 		padding: 2em 0px 3em 0px;
 	}
 
-	.product-one:nth-child(2) {
-		margin-top: 20px;
-	}
-
 	.infor-top {
 		padding-bottom: 2em;
 	}
@@ -2686,11 +2623,6 @@ h3.ghj {
 	.single-top-right {
 		margin-top: 4%;
 		width: 100%;
-		float: left;
-	}
-
-	.single-top-left {
-		width: 50%;
 		float: left;
 	}
 
@@ -2976,16 +2908,8 @@ h3.ghj {
 		padding: 10px 0px 1.5em 0px;
 	}
 
-	.product-left {
-		padding: 0 6px;
-	}
-
 	.srch {
 		left: 7px;
-	}
-
-	.product-one:nth-child(2) {
-		margin-top: 15px;
 	}
 
 	.product {
@@ -3317,16 +3241,6 @@ h3.ghj {
 		font-size: 15px;
 	}
 
-	.product-left {
-		padding: 0 10px;
-		width: 50%;
-	}
-
-	.product-left:nth-child(3),
-	.product-left:nth-child(4) {
-		margin-top: 20px;
-	}
-
 	.srch {
 		left: 10px;
 	}
@@ -3357,11 +3271,6 @@ h3.ghj {
 	.skyblue li>a,
 	.skyblue>li.showhide span {
 		font-size: 15px;
-	}
-
-	.p-left {
-		margin: 0 !important;
-		padding: 0 5px !important;
 	}
 
 	.cart-items h3 {
@@ -3487,10 +3396,6 @@ h3.ghj {
 		font-size: 14px;
 	}
 
-	.product-left {
-		padding: 0 5px;
-	}
-
 	.product {
 		padding: 1.5em 0px 1.5em 0px;
 	}
@@ -3515,11 +3420,6 @@ h3.ghj {
 
 	.product-main {
 		padding: 9px 0px 1.3em 0px;
-	}
-
-	.product-left:nth-child(3),
-	.product-left:nth-child(4) {
-		margin-top: 12px;
 	}
 
 	.infor-left h3 {

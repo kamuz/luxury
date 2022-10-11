@@ -18,7 +18,7 @@
 		<div class="prdt-top row">
 			<div class="col-md-9 prdt-left">
 				<div class="product-one row">
-					<div class="col-md-4 product-left p-left">
+					<div class="col-md-4 col-sm-4 product-left p-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.php" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-1.png" alt="" /></a>
 							<div class="product-bottom">
@@ -31,7 +31,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 product-left p-left">
+					<div class="col-md-4 col-sm-4 product-left p-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.php" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-2.png" alt="" /></a>
 							<div class="product-bottom">
@@ -44,7 +44,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 product-left p-left">
+					<div class="col-md-4 col-sm-4 product-left p-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.php" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-3.png" alt="" /></a>
 							<div class="product-bottom">
@@ -60,7 +60,7 @@
 					<div class="clearfix"></div>
 				</div>
 				<div class="product-one row">
-					<div class="col-md-4 product-left p-left">
+					<div class="col-md-4 col-sm-4 product-left p-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.php" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-4.png" alt="" /></a>
 							<div class="product-bottom">
@@ -73,7 +73,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 product-left p-left">
+					<div class="col-md-4 col-sm-4 product-left p-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.php" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-5.png" alt="" /></a>
 							<div class="product-bottom">
@@ -86,7 +86,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 product-left p-left">
+					<div class="col-md-4 col-sm-4 product-left p-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.php" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-6.png" alt="" /></a>
 							<div class="product-bottom">

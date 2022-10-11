@@ -7,15 +7,12 @@
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="assets/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="assets/css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/responsiveslides.js"></script>
 	<script src="assets/js/simplecart.js"> </script>
 	<script src="assets/js/memenu.js"></script>
 	<script src="assets/js/easydropdown.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/imagezoom.js"></script>
-	<script src="assets/js/flexslider.js"></script>
 </head>
 <body>
 	<div class="top-header">
@@ -109,49 +106,6 @@
 							</div>
 						</li>
 						<li class="grid"><a href="#">Women</a>
-							<div class="mepanel">
-								<div class="row">
-									<div class="col1 me-one">
-										<h4>Shop</h4>
-										<ul>
-											<li><a href="products.php">New Arrivals</a></li>
-											<li><a href="products.php">Blazers</a></li>
-											<li><a href="products.php">Swem Wear</a></li>
-											<li><a href="products.php">Accessories</a></li>
-											<li><a href="products.php">Handbags</a></li>
-											<li><a href="products.php">T-Shirts</a></li>
-											<li><a href="products.php">Watches</a></li>
-											<li><a href="products.php">My Shopping Bag</a></li>
-										</ul>
-									</div>
-									<div class="col1 me-one">
-										<h4>Style Zone</h4>
-										<ul>
-											<li><a href="products.php">Shoes</a></li>
-											<li><a href="products.php">Watches</a></li>
-											<li><a href="products.php">Brands</a></li>
-											<li><a href="products.php">Coats</a></li>
-											<li><a href="products.php">Accessories</a></li>
-											<li><a href="products.php">Trousers</a></li>
-										</ul>
-									</div>
-									<div class="col1 me-one">
-										<h4>Popular Brands</h4>
-										<ul>
-											<li><a href="products.php">499 Store</a></li>
-											<li><a href="products.php">Fastrack</a></li>
-											<li><a href="products.php">Casio</a></li>
-											<li><a href="products.php">Fossil</a></li>
-											<li><a href="products.php">Maxima</a></li>
-											<li><a href="products.php">Timex</a></li>
-											<li><a href="products.php">TomTom</a></li>
-											<li><a href="products.php">Titan</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="grid"><a href="#">Kids</a>
 							<div class="mepanel">
 								<div class="row">
 									<div class="col1 me-one">

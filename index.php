@@ -17,8 +17,8 @@
 	</div>
 	<div class="about">
 		<div class="container">
-			<div class="about-top grid-1">
-				<div class="col-md-4 about-left">
+			<div class="about-top grid-1 row">
+				<div class="col-md-4 col-sm-4 about-left">
 					<figure class="effect-bubba">
 						<img class="img-responsive" src="assets/images/abt-1.jpg" alt=""/>
 						<figcaption>
@@ -27,7 +27,7 @@
 						</figcaption>
 					</figure>
 				</div>
-				<div class="col-md-4 about-left">
+				<div class="col-md-4 col-sm-4 about-left">
 					<figure class="effect-bubba">
 						<img class="img-responsive" src="assets/images/abt-2.jpg" alt=""/>
 						<figcaption>
@@ -36,7 +36,7 @@
 						</figcaption>
 					</figure>
 				</div>
-				<div class="col-md-4 about-left">
+				<div class="col-md-4 col-sm-4 about-left">
 					<figure class="effect-bubba">
 						<img class="img-responsive" src="assets/images/abt-3.jpg" alt=""/>
 						<figcaption>
@@ -52,8 +52,8 @@
 	<div class="product">
 		<div class="container">
 			<div class="product-top">
-				<div class="product-one">
-					<div class="col-md-3 product-left">
+				<div class="product-one row">
+					<div class="col-md-3 col-sm-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-1.png" alt="" /></a>
 							<div class="product-bottom">
@@ -66,7 +66,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 product-left">
+					<div class="col-md-3 col-sm-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-2.png" alt="" /></a>
 							<div class="product-bottom">
@@ -79,7 +79,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 product-left">
+					<div class="col-md-3 col-sm-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-3.png"  alt="" /></a>
 							<div class="product-bottom">
@@ -92,7 +92,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 product-left">
+					<div class="col-md-3 col-sm-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-4.png" alt="" /></a>
 							<div class="product-bottom">
@@ -107,8 +107,8 @@
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="product-one">
-					<div class="col-md-3 product-left">
+				<div class="product-one row">
+					<div class="col-md-3 col-sm-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-5.png" alt="" /></a>
 							<div class="product-bottom">
@@ -121,7 +121,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 product-left">
+					<div class="col-md-3 col-sm-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-6.png" alt="" /></a>
 							<div class="product-bottom">
@@ -134,7 +134,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 product-left">
+					<div class="col-md-3 col-sm-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-7.png" alt="" /></a>
 							<div class="product-bottom">
@@ -147,7 +147,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 product-left">
+					<div class="col-md-3 col-sm-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
 							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="assets/images/p-8.png" alt="" /></a>
 							<div class="product-bottom">

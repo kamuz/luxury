@@ -30,13 +30,6 @@ $(document).ready(function() {
 			}
 		});
 	};
-	if ($('.flexslider').length > 0) {
-		console.log($('.flexslider').length);
-		$('.flexslider').flexslider({
-			animation: "slide",
-			controlNav: "thumbnails"
-		});
-	}
 	var menu_ul = $('.menu_drop .tab > a + div'),
 		menu_a = $('.menu_drop .tab a');
 	menu_ul.hide();

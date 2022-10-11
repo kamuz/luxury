@@ -147,92 +147,79 @@
 					</div>
 				</div>
 			</div>
-			<div class="bread-crumbs">
-				<h3 class="ghj">Breadcrumbs</h3>
-				<ol class="breadcrumb">
-					<li class="active">Home</li>
-				</ol>
-				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li class="active">Library</li>
-				</ol>
-				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Library</a></li>
-					<li class="active">Data</li>
-				</ol>
-			</div>
 			<div class="pagenatin">
 				<h3 class="ghj">Pagination</h3>
-				<div class="col-md-6">
-					<nav>
-						<ul class="pagination pagination-lg">
-							<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-						</ul>
-					</nav>
-					<nav>
-						<ul class="pagination">
-							<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-						</ul>
-					</nav>
-					<nav>
-						<ul class="pagination pagination-sm">
-							<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-md-6">
-					<nav>
-						<ul class="pagination pagination-lg">
-							<li class="disabled"><a href="#"><i class="fa fa-angle-left">«</i></a></li>
-							<li class="active"><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#"><i class="fa fa-angle-right">»</i></a></li>
-						</ul>
-					</nav>
-					<nav>
-						<ul class="pagination">
-							<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-							<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-						</ul>
-					</nav>
-					<nav>
-						<ul class="pagination pagination-sm">
-							<li class="disabled"><a href="#"><i class="fa fa-angle-left"></i>«</a></li>
-							<li class="active"><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#"><i class="fa fa-angle-right"></i>»</a></li>
-						</ul>
-					</nav>
+				<div class="row">
+					<div class="col-md-6">
+						<nav>
+							<ul class="pagination pagination-lg">
+								<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+							</ul>
+						</nav>
+						<nav>
+							<ul class="pagination">
+								<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+							</ul>
+						</nav>
+						<nav>
+							<ul class="pagination pagination-sm">
+								<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-6">
+						<nav>
+							<ul class="pagination pagination-lg">
+								<li class="disabled"><a href="#"><i class="fa fa-angle-left">«</i></a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#"><i class="fa fa-angle-right">»</i></a></li>
+							</ul>
+						</nav>
+						<nav>
+							<ul class="pagination">
+								<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+								<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+							</ul>
+						</nav>
+						<nav>
+							<ul class="pagination pagination-sm">
+								<li class="disabled"><a href="#"><i class="fa fa-angle-left"></i>«</a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#"><i class="fa fa-angle-right"></i>»</a></li>
+							</ul>
+						</nav>
+					</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -265,52 +252,54 @@
 			</div>
 			<div class="appearance">
 				<h3 class="ghj">Badges</h3>
-				<div class="col-md-6">
-					<p>Add modifier classes to change the appearance of a badge.</p>
-					<table class="table table-bordered">
-						<thead>
-							<tr>
-								<th>Classes</th>
-								<th>Badges</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>No modifiers</td>
-								<td><span class="badge">42</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-primary</code></td>
-								<td><span class="badge badge-primary">1</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-success</code></td>
-								<td><span class="badge badge-success">22</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-info</code></td>
-								<td><span class="badge badge-info">30</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-warning</code></td>
-								<td><span class="badge badge-warning">412</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-danger</code></td>
-								<td><span class="badge badge-danger">999</span></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div class="col-md-6">
-					<p>Easily highlight new or unread items with the <code>.badge</code> class</p>
-					<div class="list-group list-group-alternate">
-						<a href="#" class="list-group-item"><span class="badge">201</span> <i class="ti ti-email"></i> Inbox </a>
-						<a href="#" class="list-group-item"><span class="badge badge-primary">5021</span> <i class="ti ti-eye"></i> Profile visits </a>
-						<a href="#" class="list-group-item"><span class="badge">14</span> <i class="ti ti-headphone-alt"></i> Call </a>
-						<a href="#" class="list-group-item"><span class="badge">20</span> <i class="ti ti-comments"></i> Messages </a>
-						<a href="#" class="list-group-item"><span class="badge badge-warning">14</span> <i class="ti ti-bookmark"></i> Bookmarks </a>
-						<a href="#" class="list-group-item"><span class="badge badge-danger">30</span> <i class="ti ti-bell"></i> Notifications </a>
+				<div class="row">
+					<div class="col-md-6">
+						<p>Add modifier classes to change the appearance of a badge.</p>
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>Classes</th>
+									<th>Badges</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>No modifiers</td>
+									<td><span class="badge">42</span></td>
+								</tr>
+								<tr>
+									<td><code>.badge-primary</code></td>
+									<td><span class="badge badge-primary">1</span></td>
+								</tr>
+								<tr>
+									<td><code>.badge-success</code></td>
+									<td><span class="badge badge-success">22</span></td>
+								</tr>
+								<tr>
+									<td><code>.badge-info</code></td>
+									<td><span class="badge badge-info">30</span></td>
+								</tr>
+								<tr>
+									<td><code>.badge-warning</code></td>
+									<td><span class="badge badge-warning">412</span></td>
+								</tr>
+								<tr>
+									<td><code>.badge-danger</code></td>
+									<td><span class="badge badge-danger">999</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-6">
+						<p>Easily highlight new or unread items with the <code>.badge</code> class</p>
+						<div class="list-group list-group-alternate">
+							<a href="#" class="list-group-item"><span class="badge">201</span> <i class="ti ti-email"></i> Inbox </a>
+							<a href="#" class="list-group-item"><span class="badge badge-primary">5021</span> <i class="ti ti-eye"></i> Profile visits </a>
+							<a href="#" class="list-group-item"><span class="badge">14</span> <i class="ti ti-headphone-alt"></i> Call </a>
+							<a href="#" class="list-group-item"><span class="badge">20</span> <i class="ti ti-comments"></i> Messages </a>
+							<a href="#" class="list-group-item"><span class="badge badge-warning">14</span> <i class="ti ti-bookmark"></i> Bookmarks </a>
+							<a href="#" class="list-group-item"><span class="badge badge-danger">30</span> <i class="ti ti-bell"></i> Notifications </a>
+						</div>
 					</div>
 				</div>
 				<div class="clearfix"> </div>

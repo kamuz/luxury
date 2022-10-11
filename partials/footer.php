@@ -2,15 +2,15 @@
 		<div class="container">
 			<div class="infor-top">
 				<div class="row">
-					<div class="col-md-3 infor-left">
+					<div class="col-sm-3">
 						<h3>Follow Us</h3>
 						<ul>
-							<li><a href="#"><span class="fb"></span><h6>Facebook</h6></a></li>
-							<li><a href="#"><span class="twit"></span><h6>Twitter</h6></a></li>
-							<li><a href="#"><span class="google"></span><h6>Google+</h6></a></li>
+							<li><a href="#"><p>Facebook</p></a></li>
+							<li><a href="#"><p>Twitter</p></a></li>
+							<li><a href="#"><p>Google+</p></a></li>
 						</ul>
 					</div>
-					<div class="col-md-3 infor-left">
+					<div class="col-sm-3">
 						<h3>Information</h3>
 						<ul>
 							<li><a href="#"><p>Specials</p></a></li>
@@ -20,7 +20,7 @@
 							<li><a href="#"><p>Top Sellers</p></a></li>
 						</ul>
 					</div>
-					<div class="col-md-3 infor-left">
+					<div class="col-sm-3">
 						<h3>My Account</h3>
 						<ul>
 							<li><a href="account.php"><p>My Account</p></a></li>
@@ -30,10 +30,10 @@
 							<li><a href="#"><p>My Addresses</p></a></li>
 						</ul>
 					</div>
-					<div class="col-md-3 infor-left">
+					<div class="col-sm-3">
 						<h3>Store Information</h3>
-						<h4>The company name, <span>Lorem ipsum dolor,</span> Glasglow Dr 40 Fe 72.</h4>
-						<h5>+955 123 4567</h5>
+						<p>The company name, <span>Lorem ipsum dolor,</span> Glasglow Dr 40 Fe 72.</p>
+						<p>+955 123 4567</p>
 						<p><a href="mailto:example@email.com">contact@example.com</a></p>
 					</div>
 				</div>
